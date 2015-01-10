@@ -1,0 +1,95 @@
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
+
+# xtUML.org Website Migration Project
+### xtUML Project Analysis Note
+
+
+1. Abstract
+-----------
+The purpose of this project is to move the exisiting webiste www.xtuml.org from its current hosted location, 
+which utilizes Amazon web services, to another location, specifically GoDaddy (www.godaddy.com).
+
+2. Document References
+----------------------
+
+[1] [BridgePoint DEI #1](https://support.onefact.net/redmine/issues/611)  
+[2] [GoDaddy.com] (https://support.godaddy.com/help/article/8997/migrating-your-site-to-managed-wordpress)
+[3] [GoDaddy.com] (https://support.godaddy.com/help/article/6117/moving-your-wordpress-site-to-us-from-another-host)
+[4] [WordPress.com] (http://en.support.wordpress.com/export/)
+
+3. Background
+-------------
+From Mr. Starrett:
+
+xtuml.org is hosted on a server we own and control.  This server is an instance hosted on Amazon Web Services.
+xtuml.org is a web site.  We do not need it to run on a standalone server.
+xtuml.org should be hosted in a hosting environment like GoDaddy.
+
+
+Also from Mr. Starret: 
+
+    Migrate xtuml.org from our current AWS-based hosting to a service provider (preferably GoDaddy unless something better is demonstrated).
+    Interruptions in xtuml.org availability must be kept low.
+        Interruptions of more than an hour are not acceptable.
+    The cost of maintaining the site must be reduced.
+        AWS costs something like $100+ per month.
+        GoDaddy for onefact.net costs $1 per month.
+        xtuml.org must cost less than $50 per month and preferably be around $1 per month.
+    Minimize "departures from standards" that make the site difficult to maintain. Use off-the-shelf themes and plugins whenever practical.
+    xtuml.net and xtuml.com exist. These will ultimately be forwarded to xtuml.org but could serve as a staging area.
+
+
+
+4. Requirements
+---------------
+From Mr. Brown:
+
+4.1 - The new website shall support the forum  
+4.2 - The new website shall contain the existing forum topics & replies
+4.3 - The new website shall support WP Courseware
+4.4 - The new website shall maintain the progress of users in the courses
+4.5 - Existing user registrations shall carry over to the new site
+4.6 - The website shall include anti-spam measures on the forum and user registration
+
+5. Analysis
+-----------
+From Mr. Guthrie:
+
+5.1 - Preliminary analysis.  Mr. Mulvey and Mr. Starrett confirmed that an attempt was made to use the 
+tool provided by GoDaddy.com to migrate the existing xtUML.org WordPress site to a GoDaddy.com host. However, 
+this attempt was unsuccessful, so the migration project is still on-going.
+5.2 - Initial research.  There is a function on the WordPress Dashboard called "Export".  According to [4], 
+this function will download all content of the WordPress site to a local host. This data may be used as a file 
+to "Import" on the new WordPress site hosted by GoDaddy.com by using the "Import" function on the WordPress Dashboard.
+5.3 - Option 2.  Another option for migrating from the existing WordPress xtUML.org site to a site hosted by 
+GoDaddy.com is to use the manual method as described in [3].  This method is more invovled because it involves 
+working with the MySQL and PHPMyAdmin configurations.  Care must be taken here.
+5.4 - Unknowns: Given the nature of WordPress and its use of plugins, it is not known if the plugins currently 
+utilized by the xtUML.org WordPress site are specific to Amazon Web Services, or are non-premium 
+(read: "freely available").  In response to the requirements in Section 4 above, questions regarding some of
+the requirements arise:
+5.4.1 - Does the proposed GoDaddy host support the existing forum plugin?  Is it freely available?
+5.4.2 - Does the proposed GoDaddy host support the WP Courseware?  Is it freely available?
+5.4.3 - Does the proposed GoDaddy host support the migration of existing user registrations?
+5.5 - It seems likely that these features are supported by GoDaddy.com since all WordPress websites are designed to be 
+compatible, but it is unknown for certain at the time of this writing.
+
+6. Work Required
+----------------
+Proposed work: A simple and effective next step to migrate the existing xtUML.org website would be to use the existing 
+xtUML.org WordPress site's Export feature from the Dashboard to create a backup of the existing xtUML.org website. 
+Then this backup file may be imported to the proposed GoDaddy.com host.  When these steps are completed, it would be 
+a matter of seeing what works on the new site and what does not.  The existing site remains unchanged with no 
+downtime.
+
+7. Acceptance Test
+------------------
+Project managers and the OneFact team may amend and approve or refine this proposed course of action.
+
+End
+---
+
