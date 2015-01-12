@@ -28,11 +28,17 @@ which utilizes Amazon web services (AWS), to another location, specifically GoDa
 -------------
 
 3.1 - xtuml.org is hosted on a server owned and controled by OneFact.
+
 3.2 - This server is an instance hosted on AWS.
+
 3.3 - AWS costs something like $100+ per month.
+
 3.4 - GoDaddy for onefact.net costs $1 per month.
+
 3.5 - xtuml.org is a web site.  It does not need to run on a standalone server.
+
 3.6 - xtuml.org should be hosted in a hosting environment like GoDaddy.
+
 
 4. Requirements
 ---------------
