@@ -18,13 +18,16 @@ which utilizes Amazon web services (AWS), to another location, specifically GoDa
 
 [1] [BridgePoint DEI #1](https://support.onefact.net/redmine/issues/611)  
 [2] [GoDaddy.com] (https://support.godaddy.com/help/article/8997/migrating-your-site-to-managed-wordpress)
+
 [3] [GoDaddy.com] (https://support.godaddy.com/help/article/6117/moving-your-wordpress-site-to-us-from-another-host)
+
 [4] [WordPress.com] (http://en.support.wordpress.com/export/)
+
 
 3. Background
 -------------
 
-3.1 - xtuml.org is hosted on a server owned and controled by OneFact.  
+3.1 - xtuml.org is hosted on a server owned and controled by OneFact.
 3.2 - This server is an instance hosted on AWS.
 3.3 - AWS costs something like $100+ per month.
 3.4 - GoDaddy for onefact.net costs $1 per month.
@@ -43,8 +46,8 @@ which utilizes Amazon web services (AWS), to another location, specifically GoDa
 4.7 - Interruptions in xtuml.org availability must be kept low - Interruptions of more than an hour are not acceptable.
 4.8 - The cost of maintaining the site must be reduced - xtuml.org must cost less than $50 per month and preferably 
 be around $1 per month.
-4.9 - Minimize "departures from standards" that make the site difficult to maintain. 
-4.10 - Use off-the-shelf themes and plugins whenever practical.  
+4.9 - Minimize "departures from standards" that make the site difficult to maintain.
+4.10 - Use off-the-shelf themes and plugins whenever practical.
 4.11 - xtuml.net and xtuml.com exist, and they shall temporarily serve as a staging area for the migration.
 4.12 - xtuml.net and xtuml.com shall forward to the same new website when the migration is completed.
 
