@@ -80,25 +80,25 @@ to a GoDaddy.com host. However, this attempt was unsuccessful.
 5.2 - Initial research.  There is a function on the WordPress Dashboard called "Export".  According to [4], 
 this function will download all content of the WordPress site to a local host.
 
-5.3.1 - Option 1. The data may be exported to a local host.  This data may be used as a file to "Import" on the new 
+5.2.1 - Option 1. The data may be exported to a local host.  This data may be used as a file to "Import" on the new 
 WordPress site hosted by GoDaddy.com by using the "Import" function on the WordPress Dashboard.
 
-5.3.2 - Option 2.  Another option for migrating from the existing WordPress xtUML.org site to a site hosted by 
+5.2.2 - Option 2.  Another option for migrating from the existing WordPress xtUML.org site to a site hosted by 
 GoDaddy.com is to use the manual method as described in [3].  This method is more invovled because it involves 
 working with the MySQL and PHPMyAdmin configurations.  Care must be taken here.
 
-5.4 - Unknowns: Given the nature of WordPress and its use of plugins, it is not known if the plugins currently 
+5.3 - Unknowns: Given the nature of WordPress and its use of plugins, it is not known if the plugins currently 
 utilized by the xtUML.org WordPress site are specific to Amazon Web Services, or are non-premium 
 (read: "freely available").  In response to the requirements in Section 4 above, the following statements should be 
 verified.
 
-5.4.1 - The proposed GoDaddy host supports the existing forum plugin.
+5.3.1 - The proposed GoDaddy host supports the existing forum plugin.
 
-5.4.2 - The proposed GoDaddy host supports the WP Courseware.
+5.3.2 - The proposed GoDaddy host supports the WP Courseware.
 
-5.4.3 - The proposed GoDaddy host supports the migration of existing user registrations.
+5.3.3 - The proposed GoDaddy host supports the migration of existing user registrations.
 
-5.5 - It seems likely that these features are supported by GoDaddy.com since all WordPress websites are designed to be compatible, but it is unknown for certain at the time of this writing.
+5.4 - It seems likely that these features are supported by GoDaddy.com since all WordPress websites are designed to be compatible, but it is unknown for certain at the time of this writing.
 
 
 6. Work Required
