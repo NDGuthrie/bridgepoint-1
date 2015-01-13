@@ -16,13 +16,15 @@ which utilizes Amazon web services (AWS), to another location, specifically GoDa
 2. Document References
 ----------------------
 
-[1] [BridgePoint DEI #1](https://support.onefact.net/redmine/issues/611)
+[1] [BridgePoint DEI #611](https://support.onefact.net/redmine/issues/611)
 
-[2] [GoDaddy.com] (https://support.godaddy.com/help/article/8997/migrating-your-site-to-managed-wordpress)
+[2] [GoDaddy.com] (https://support.godaddy.com/help/article/8997/migrating-your-site-to-managed-wordpress) GoDaddy.com
+article regarding migrating a site to a managed wordpress site.
 
-[3] [GoDaddy.com] (https://support.godaddy.com/help/article/6117/moving-your-wordpress-site-to-us-from-another-host)
+[3] [GoDaddy.com] (https://support.godaddy.com/help/article/6117/moving-your-wordpress-site-to-us-from-another-host) 
+GoDaddy.com article regarding migrating a site to GoDaddy from another host.
 
-[4] [WordPress.com] (http://en.support.wordpress.com/export/)
+[4] [WordPress.com] (http://en.support.wordpress.com/export/) Documentation on the WordPress Export feature.
 
 
 3. Background
