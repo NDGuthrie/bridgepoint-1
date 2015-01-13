@@ -136,10 +136,10 @@ interfere with the availability of xtuml.org.
 
 7.10 - Use off-the-shelf themes and plugins whenever practical.
 
-4.11 - xtuml.net and xtuml.com exist, and they may be checked to determine that they temporarily serve as a staging 
+7.11 - xtuml.net and xtuml.com exist, and they may be checked to determine that they temporarily serve as a staging 
 area for the migration.
 
-4.12 - xtuml.net and xtuml.com may be checked to determine that they forward to the same new website when the 
+7.12 - xtuml.net and xtuml.com may be checked to determine that they forward to the same new website when the 
 migration is completed.
 
 
