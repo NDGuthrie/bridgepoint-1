@@ -103,15 +103,12 @@ verified.
 
 6. Work Required
 ----------------
-6.1 - Proposed work: A simple and effective next step to migrate the existing xtUML.org website would be to use 
-the existing xtUML.org WordPress site's Export feature from the Dashboard to create a backup of the existing 
-xtUML.org website. 
+6.1 - Use the existing xtUML.org WordPress site's Export feature from the Dashboard to create a backup of the 
+existing xtUML.org website. 
 
-6.2 - This backup file may be imported to the proposed GoDaddy.com host.
+6.2 - This backup file shall be imported to the proposed GoDaddy.com host.
 
 6.3 - When these steps are completed, it would be a matter of seeing what works on the new site and what does not.
-
-6.4 - The existing site remains unchanged with no downtime.
 
 
 7. Acceptance Test
