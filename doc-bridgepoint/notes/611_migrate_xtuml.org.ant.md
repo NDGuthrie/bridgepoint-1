@@ -72,6 +72,10 @@ GoDaddy.com article regarding migrating a site to GoDaddy from another host.
 
 4.12 - xtuml.net and xtuml.com shall forward to the same new website when the migration is completed.
 
+4.13 - The migration procedure shall be performed in a documented manner that is repeatable.  Preferably with a script.
+
+4.14 - It is desirable that the selected web host provider be able to give us ssh access.
+
 
 5. Analysis
 -----------
@@ -115,6 +119,8 @@ existing xtUML.org website.
 
 7. Acceptance Test
 ------------------
+
+7.0 - Note: It has been attempted to produce a one-to-one mapping from the Requirements section (4) above to the acceptance Test section (7).  However, while this has been done as much as possible, some requirements do not lend themselves to explicit tests.  The ones that do have specific tests shall be called out here.
 
 7.1 - Check the new website to see if the forum is supported and functional.
 
